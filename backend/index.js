@@ -10,7 +10,7 @@ dotenv.config()
 const app = express()
 app.use(express.json())
 app.use(cors({
-    origin: ["http://localhost:3000"],
+    origin: ["https://resume-analyzer-iota.vercel.app", "https://resume-analyzer-tvzc.onrender.com"],
     credentials: true
 }));
 app.use(cookieParser());
