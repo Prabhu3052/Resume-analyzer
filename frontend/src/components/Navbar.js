@@ -13,7 +13,7 @@ const Navbar = () => {
       <AppBar position="static"  sx={{ backgroundColor: '#640D6B' ,fontFamily:"serif"}}>
         <Toolbar >
           <Typography variant="h5" component="div" sx={{ flexGrow: 1 ,fontFamily:"serif"}}>
-            Resume Wizard
+            Resume Analyzer
           </Typography>
           {!isAuthenticated && (
             <>
